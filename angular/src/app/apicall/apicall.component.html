@@ -1,0 +1,11 @@
+<p>apicall works!</p>
+<!-- //<button (click)="users()">GetApi</button> -->
+
+<form #usersForm="ngForm" (ngSubmit)="getUserFormData(usersForm.value)" >
+
+    <input type="text" name="name" ngModel placeholder="enter your name"><br><br>
+    <input type="text" name="email" ngModel placeholder="enter your email"><br><br>
+    <input type="text" name="email" ngModel placeholder="enter your email"><br><br>
+    <input type="passward" name="passward" ngModel placeholder="enter your passward"><br><br>
+    <button>Add new user</button>
+</form>

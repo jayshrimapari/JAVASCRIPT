@@ -1,0 +1,38 @@
+<!-- <div class="main">
+<p>directives works!</p> -->
+<!-- <h1 *ngIf="show_content">Happy Shivjaynti</h1>
+<p>Happy Mahashivratri</p>
+<button (click)="showcontent()">click here to show h1 tag</button><br><br>
+<button (click)="showlist()">showlist</button>
+<button (click)="hidelist()">hidelist</button>
+
+<div *ngIf="show_list">
+    <ul *ngFor="let listIems of list">
+        <li>{{listIems}}</li>
+
+    </ul>
+</div> -->
+
+<div class="main">
+    <button (click)="showtable()">Show Table</button><br><br>
+<button (click)="hidetable()">Hide Table</button>
+    
+    <table >
+        <tr>
+            <th>SR.NO</th>
+            <th>NAME</th>
+            <th>GENDER</th>
+            <th>EMAIL</th>
+        </tr>
+
+        <tr *ngFor="let user of users">
+            <td>{{user.id}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.gender}}</td>
+            <td>{{user.email}}</td>
+
+        </tr>
+
+
+    </table>
+</div>

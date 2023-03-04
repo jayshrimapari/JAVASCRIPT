@@ -1,0 +1,27 @@
+
+
+
+<div class="main">
+    <button (click)="showcontent()" class="three">Show Table</button>
+    <button (click)="hidecontent()" class="three">Hide Table</button>
+    <button (click)="showcolor()" class="three">Hide Table</button>
+    
+<table class="table">
+        <tr class="one">
+            <th class="one" >SR.NO</th>
+            <th class="one">NAME</th>
+            <th class="one" >GENDER</th>
+            <th class="one">EMAIL</th>
+        </tr>
+
+        <tr *ngFor="let user of users" class="two">
+            <td class="two">{{user.id}}</td>
+            <td class="two">{{user.name}}</td>
+            <td class="two">{{user.gender}}</td>
+            <td class="two">{{user.email}}</td>
+
+        </tr>
+
+
+    </table>
+</div>

@@ -1,0 +1,56 @@
+.main{
+    background-image: url(~src/assets/image/image2.jpg);
+    background-size: cover;
+    height: 50rem;
+}
+.table{
+    text-align: center;
+    margin: auto;
+    border: 3px solid rgb(245, 240, 240);
+    border-collapse: collapse;
+    position: relative;
+   top: 220px;
+   height:50px
+}
+ .one{
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 50px;
+    width: 100px;
+    background-color:darkgray;
+    color: red;
+ }
+ .two{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: ghostwhite;
+    color: black;
+
+ }
+ .two:nth-child(even){
+    background-color: aqua;
+    
+ }
+ .two:nth-child(even):hover{
+    background-color: rgb(178, 209, 82);
+    
+ }
+ .two:nth-child(odd):hover{
+    background-color: rgb(53, 174, 99);
+    
+ }
+ .two:nth-child(odd){
+    background-color: rgb(28, 189, 189);
+    
+ }
+ .three{
+    position: relative;
+    top: 150px;
+    left: 610px;
+    margin-left: 7px;
+    padding: 10px 20px;
+    background-color: forestgreen;
+    color: white;
+}
+
+ 
